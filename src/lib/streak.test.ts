@@ -11,7 +11,7 @@ describe('calculateStreak', () => {
 
   it('HAB-02: counts consecutive days ending today', () => {
     const days = ['2026-11-20', '2026-11-21', '2026-11-22']
-    expect(calculateStreak(days, '2026-11-22')).toBe(99)
+    expect(calculateStreak(days, '2026-11-22')).toBe(3)
   })
 
   it('HAB-03: keeps the streak alive when today is not done yet', () => {
