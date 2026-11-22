@@ -13,3 +13,7 @@
 ## Out of scope (for now)
 - User accounts and cloud sync
 - Habits with weekly targets 
+
+| HAB-06 | A user can add a habit by name | Given a name, when I submit the form, then the habit appears in the list and the input clears. A blank name adds nothing. |
+| HAB-07 | Habits are saved on the device | After closing and reopening the app, my habits and checked days are still there. If saved data is corrupted, the app starts empty and does not crash. |
+| HAB-08 | A user can delete a habit | When I delete a habit, it disappears from the list. |
